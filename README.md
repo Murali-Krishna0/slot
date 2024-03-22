@@ -24,15 +24,13 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
-
+```
 <html>
 <head>
 <title>Slot Timetable</title>
 </head>
 <body>
-<center>
-<img src="/static/logo.png" height="100" width="500">
-</center>
+
 <br>
 <table align="center" width="500" cellspacing="3" cellpadding="2" border="2" bgcolor="yellow">
 <caption><b>SLOT TIME TABLE - MURALI KRISHNA S (212223230129)</b></caption>
@@ -131,7 +129,7 @@ Execute the program using runserver command.
 </table>
 </body>
 </html>
-
+```
 ## OUTPUT
 
 ![Screenshot 2024-03-22 145320](https://github.com/Murali-Krishna0/slot/assets/149054535/d66ff79e-9b9a-4089-9f07-0627cc1d8f25)

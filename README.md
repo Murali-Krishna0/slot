@@ -1,5 +1,5 @@
 # Ex03 Time Table
-## Date:
+## Date:222.03.2024
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -24,113 +24,119 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
-```
-<html>
-     <head>
-              <title> web </title>
-     </head>
-     <body bgcolor="black" TEXT="white">
-<center>
-     <img src="/static/images/saveethalogo.png"  height="100" width="1000" align="center" /></center>
-          
-          <table border= "4" cellspacing="0px" cellpadding="10px" bgcolor=green" align="center" >
-          <CAPTION align=“top”> SLOT TIME TABLE - CHARUMATHI R(22006878) </CAPTION>
-          <br>
-          <br>
-               <tr> 
-               <th bgcolor="gray">   DAY/TIME </th>
-               <th bgcolor="purple">   MONDAY </th>
-               <th bgcolor="purple">   TUESDAY </th>
-               <th bgcolor="purple">   WEDNESDAY </th>
-               <th bgcolor="purple">   THURSDAY </th>
-               <th bgcolor="purple">   FRIDAY </th>
-               </tr>
-               <tr>
-                <th bgcolor="purple"> 8-10 </th>
-                <td> -- </td>
-                <td> C programming </td>
-                  <td> -- </td>
-                <td> FWAD </td>
-                <td> FWAD </td>
-               </tr>
-               <tr>
-                <th bgcolor="purple"> 10-12 </th>
-                <td> -- </td>
-                <td> DL </td>
-                <td> DIP </td>
-                <td> DIP </td>
-                <td> DL </td>
-               </tr>
-               <tr>
-                <th bgcolor="purple"> 12-1 </th>
-                 <td colspan="5" align="center">LUNCH TIME</td>
-               </tr>
-               <tr>
-                <th bgcolor="purple"> 1-3 </th>
-                <td> -- </td>
-                <td> -- </td>
-                <td> FWAD </td>
-                <td> -- </td>
-                <td> Physics/- </td>
-               </tr>
-               
-              
-              <tr>
-               <th bgcolor="purple"> 3-5 </th>
-               <td> Statictis </td>
-               <td> Physics </td>
-               <td> C Program </td> 
-               <td> -- </td> 
-               <td> Statictis </td>
-              </tr>
-           </table>
-            <table border= "4" cellspacing="0px" cellpadding="10px"  align="center" >
-           <tr>
-           <th> S.No </th>
-             <th> SUBJECT CODE </th>
-           <th> SUBJECT NAME </th>
-           </tr>
-           <tr> 
-           <td> 1. </td>
-           <td> 19AI414 </td>
-           <td> Fundamental of web application and development </td>
-           </tr>
-           <tr>
-           <td> 2. </td>
-           <td> 19AI406 </td>
-           <td> Digital Image Processing techniques </td>
-           </tr>
-           <tr>
-           <td> 3. </td>
-           <td> 19AI304 </td> 
-           <td> Fundamental of C programming </td>
-           </tr>
-           <tr>
-           <td> 4. </td>
-           <td> 19PH214 </td>
-           <td> Physics for quantum computing </td>
-           </tr>
-           <tr>
-           <td> 5. </td>
-           <td> 19AI413 </td>
-           <td> Deep Learning and Applications </td>
-           </tr>
-           <tr>
-           <td> 6. </td>
-           <td> 19MA211 </td>
-           <td> Statictis and Numerical Methods </td>
-           </tr>
-           </table>
-              
-        </body>
-</html>
-```
 
+<html>
+<head>
+<title>Slot Timetable</title>
+</head>
+<body>
+<center>
+<img src="/static/logo.png" height="100" width="500">
+</center>
+<br>
+<table align="center" width="500" cellspacing="3" cellpadding="2" border="2" bgcolor="yellow">
+<caption><b>SLOT TIME TABLE - MURALI KRISHNA S (212223230129)</b></caption>
+<tr align="center">
+<th bgcolor="cyan">Day/Time</th>
+<th bgcolor="cyan">Monday</th>
+<th bgcolor="cyan">Tuesday</th>
+<th bgcolor="cyan">Wednesday</th>
+<th bgcolor="cyan">Thursday</th>
+<th bgcolor="cyan">Friday</th>
+<th bgcolor="cyan">Saturday</th>
+</tr>
+<tr align="center">
+<th bgcolor="pink">8-10</th>
+<td>Fundamentals of Web Application Development</td>
+<td>Digital Electronics</td>
+<td>German Basic and Advanced</td>
+<td>Digital Electronics</td>
+<td>FREE SLOT</td>
+<td>FREE SLOT</td>
+</tr>
+<tr align="center">
+<th bgcolor="pink">10-12</th>
+<td>FREE SLOT</td>
+<td>FREE SLOT</td>
+<td>Probability and Queueing Models</td>
+<td>Creative Skills</td>
+<td>Python Programming</td>
+<td>Operating System</td>
+</tr>
+<tr>
+<th bgcolor="pink">12-1</th>
+<td colspan="6" align="center">L U N C H    B R E A K </td>
+</tr>
+<tr align="center">
+<th bgcolor="pink">1-3</th>
+<td>German Basic and Advanced</td>
+<td>FREE SLOT</td>
+<td>FREE SLOT</td>
+<td>Fundamentals of Web Application Development</td>
+<td>Fundamentals of Web Application Development</td>
+<td>Probability and Queueing Models</td>
+</tr>
+<tr align="center">
+<th bgcolor="pink">3-5</th>
+<td>Operating System</td>
+<td>German Basic and Advanced</td>
+<td>FREE SLOT</td>
+<td>Python Programming</td>
+<td>FREE SLOT</td>
+<td>FREE SLOT</td>
+</tr>
+</table>
+<br>
+<table align="center" cellspacing="2" cellpadding="2" border="2">
+<tr align="center">
+<th>S. No.</th>
+<th>Subject Code</th>
+<th>Subject Name</th>
+</tr>
+<tr>
+<td align="center">1.</td>
+<td align="center"><b><font color = red>19AI414</font></b></td>
+<td><b><font color = red>Fundamentals of Web Application Development (FWAD)</font></b></td>
+</tr>
+<tr>
+<td align="center">2.</td>
+<td align="center">19AI301</td>
+<td>Python Programming(Python)</td>
+</tr>
+<tr>
+<td align="center">3.</td>
+<td align="center">19CS405</td>
+<td>Operating System(OS)</td>
+</tr>
+<tr>
+<td align="center">4.</td>
+<td align="center">19EE404</td>
+<td>Digital Electronics(DE)</td>
+</tr>
+<tr>
+<td align="center">5.</td>
+<td align="center">19EN613C</td>
+<td>German Basic and Advanced(GBA)</td>
+</tr>
+<tr>
+<td align="center">6.</td>
+<td align="center">19MA222</td>
+<td>Probability and Queueing Models(PQM)</td>
+</tr>
+<tr>
+<td align="center">7.</td>
+<td align="center">19EY702</td>
+<td>Creative Skills(CS)</td>
+</tr>
+</table>
+</body>
+</html>
 
 ## OUTPUT
-![image](https://github.com/Murali-Krishna0/slot/assets/149054535/666ff39e-fe25-4190-a642-317fc0bb565c)
-![image](https://github.com/Murali-Krishna0/slot/assets/149054535/94a62758-ea62-4a27-bd51-4afc1c0d8e0c)
 
+![Screenshot 2024-03-22 145320](https://github.com/Murali-Krishna0/slot/assets/149054535/d66ff79e-9b9a-4089-9f07-0627cc1d8f25)
+
+![Screenshot 2024-03-22 145440](https://github.com/Murali-Krishna0/slot/assets/149054535/561bd153-bfbe-42b0-9669-b7c1b24d0a72)
 
 
 ## RESULT

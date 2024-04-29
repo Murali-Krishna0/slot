@@ -132,9 +132,12 @@ Execute the program using runserver command.
 ```
 ## OUTPUT
 
-![Screenshot 2024-03-22 145320](https://github.com/Murali-Krishna0/slot/assets/149054535/d66ff79e-9b9a-4089-9f07-0627cc1d8f25)
+![image](https://github.com/Murali-Krishna0/slot/assets/149054535/e1eafb5d-2bf9-4124-8d4b-59d1e9776b59)
 
-![Screenshot 2024-03-22 145440](https://github.com/Murali-Krishna0/slot/assets/149054535/561bd153-bfbe-42b0-9669-b7c1b24d0a72)
+
+![image](https://github.com/Murali-Krishna0/slot/assets/149054535/c0201027-3127-43b0-a350-e67f2b534a32)
+
+![image](https://github.com/Murali-Krishna0/slot/assets/149054535/ce1c8584-bdb7-4b0c-8afe-129d10327975)
 
 
 ## RESULT

@@ -132,7 +132,8 @@ Execute the program using runserver command.
 ```
 ## OUTPUT
 
-![image](https://github.com/Murali-Krishna0/slot/assets/149054535/e1eafb5d-2bf9-4124-8d4b-59d1e9776b59)
+![image](https://github.com/Murali-Krishna0/slot/assets/149054535/bb6a1b63-1dbf-4a38-80b7-810274892354)
+
 
 
 ![image](https://github.com/Murali-Krishna0/slot/assets/149054535/c0201027-3127-43b0-a350-e67f2b534a32)
